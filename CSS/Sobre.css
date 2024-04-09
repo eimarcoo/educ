@@ -275,91 +275,23 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
-.login-section {
-  margin-left: 100px;
-  width: 500px;
-  text-align: center;
-}
 
-.login-section h2{
-  margin-bottom: 30px;
-}
-
-.login-section input[type="text"],
-.login-section input[type="password"] {
-  border-left: 0px;
-  border-top: 0px;
-  border-right: 0px;
+.texto{
   width: 90%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.login-section button {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  background-color: #009688;
-  width: 95%;
-  border-radius: 30px;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+  height: 70vh;
+  padding: 40px;
 }
 
-.login-section button:hover{
-  background-color: #61e2d5;
-  color: #fff;
-}
-
-.section img {
-  border-radius: 30px; /* Arredonda todos os cantos com raio de 10px */
-  max-width: 700px;
-  align-items: center;
-}
-
-.img {
-  padding: 100px;
-}
-
-/* Seção "Sobre Nós" */
-.about-section {
-  text-align: center;
-}
-
-.sobre {
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-}
-
-.sobre p{
-  width: 600px;
-  font-size: 25px;
-  color: #000;
-  padding: 20px;
+.texto h2{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
 }
 
-.img_saiba{
-  padding: 100px;
-}
-
-.img_saiba a{
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  background-color: #009688;
-  padding: 20px;
-  border-radius: 30px;
-}
-
-.img_saiba a:hover{
-  background-color: #61e2d5;
-  color: #fff;
-}
-
-.img_saiba img{
-  width: 450px;
+.texto p{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
 /* Rodapé */
